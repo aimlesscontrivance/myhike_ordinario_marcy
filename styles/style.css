@@ -13,3 +13,42 @@
     width: 100%;
     height: auto;
   }
+
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  /* Centers the circle horizontally */
+}
+
+.bg-info {
+  background-color: #AE88F5 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light, .navbar-brand {
+  background-color: #AE88F5;
+  color: #6320ee;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+  color: #F8F0FB;            /* Lightest shade for text on info button for contrast */
+  background-color: #AE88F5; /* Light green for button background */
+  border-color: #6320ee;     /* Dark green for button border */
+}
+
+.btn-primary, .btn {
+  color: #f2fbf2;            /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #6320ee; /* Dark green for primary button background */
+  border-color: #421d86;     /* Reddish-brown for border to use as accent */
+  border-width: thick;
+}
+
+body {
+  background-color: #F8F0FB; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive; /*change the font name for what you have*/
+  font-size: 2.25rem;
+}
