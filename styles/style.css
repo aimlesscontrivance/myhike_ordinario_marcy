@@ -40,12 +40,15 @@ nav, .container {
   border-color: #6320ee;     /* Dark green for button border */
 }
 
-.btn-primary, .btn {
+.btn, .btn-primary {
   color: #f2fbf2;            /* Lightest shade for text */
-  font-size: 150%;
   background-color: #6320ee; /* Dark green for primary button background */
   border-color: #421d86;     /* Reddish-brown for border to use as accent */
   border-width: thick;
+}
+
+.btn-primary {
+  font-size: 150%;
 }
 
 body {
@@ -67,4 +70,8 @@ body {
 .card {
   width: 45%; /* Adjust the width as per your design, leaving a little space for margins */
   margin: 2%; /* Add margin between cards */
+}
+
+.material-icons {
+  cursor: pointer;
 }
